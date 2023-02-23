@@ -1,23 +1,25 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " L ",
-    "SLS",
-    "TLT"
-  ],
-  "key": {
-    "T": {
-      "item": "minecraft:tripwire_hook"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:snowball"
     },
-    "L": {
-      "item": "minecraft:leather"
+    {
+      "item": "minecraft:snowball"
     },
-    "S": {
-      "item": "minecraft:string"
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "item": "minecraft:snowball"
     }
-  },
+  ],
   "result": {
-    "item": "minecraft:saddle",
+    "item": "minecraft:ice",
     "count": 1
-  }
+  },
+  "group": "glass_blasting"
 }
