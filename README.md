@@ -1,5 +1,6 @@
 # CraftPlus
 ![Artboard_1](https://user-images.githubusercontent.com/68510211/220808980-1b772ab6-dafe-416c-8285-414b59881bf1.png)
+
 Adds recipes to your Minecraft world.
 
 Special thanks to Kaupenjoe for teaching me.
