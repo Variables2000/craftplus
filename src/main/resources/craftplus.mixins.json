@@ -3,7 +3,7 @@
 	"package": "com.twelvetican.craftplus.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"CraftPlusMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -1,5 +1,7 @@
 # CraftPlus
 Adds recipes to your Minecraft world.
+
+Special thanks to Kaupenjoe for teaching me.
 ## Contribute
 Feel free to help.
 
@@ -33,3 +35,5 @@ Useful Catalog:
 [Vanilla Items List](https://minecraft.fandom.com/wiki/Item)
 
 [Fabric Wiki](https://fabricmc.net/wiki)
+
+[Minecraft 1.19.3 Fabric Modding Tutorial by Kaupenjoe](https://youtube.com/playlist?list=PLKGarocXCE1EMYzuBUTYjHnFeBrRFbesk)

@@ -1,9 +1,9 @@
 plugins {
 	id 'fabric-loom' version '1.1-SNAPSHOT'
 	id 'maven-publish'
-	
+	id "com.modrinth.minotaur" version "2.+"
 }
-
+import com.modrinth.minotaur.dependencies.ModDependency
 sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
@@ -94,9 +94,17 @@ publishing {
 
 	// See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
 	repositories {
-		// Add repositories to publish to here.
-		// Notice: This block does NOT have the same function as the block in the top level.
-		// The repositories here will be used for publishing your artifact, not for
-		// retrieving dependencies.
 	}
+}
+modrinth {
+	token = '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' // Please use an environment variable for this! The default is `$MODRINTH_TOKEN`.
+	projectId = 'z5bZKc70' // The ID of your Modrinth project. Slugs will not work.
+	versionNumber = '1.0.0' // The (preferably SemVer) version of the mod. If not specified, it'll use the `version` declaration
+	versionName = 'Initial release.' // The version title. If not specified, it'll use the version number
+	uploadFile = remapJar // Tells Minotaur to use the remapped jar
+	gameVersions = ['1.19.3'] // An array of game versions the version supports
+	loaders = ['fabric'] // Self-explanatory.
+	dependencies = [
+			new ModDependency('P7dR8mSH', 'required') // Creates a new required dependency on Fabric API
+	]
 }

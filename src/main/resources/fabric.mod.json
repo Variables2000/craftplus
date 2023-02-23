@@ -16,10 +16,11 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.twelvetican.craftplus.ExampleMod"
+          "com.twelvetican.craftplus.CraftPlusMod"
 		],
+		"client": ["com.twelvetican.craftplus.CraftPlusClient"],
 		"fabric-datagen": [
-			"com.twelvetican.craftplus.ExampleModDataGenerator"
+			"com.twelvetican.craftplus.CraftPlusModDataGenerator"
 		]
 	},
 	"mixins": [
